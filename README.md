@@ -11,7 +11,17 @@ Author: Daniel Ramirez
 
 # Building and Running the JavaFX Application
 1. Main Menu
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Main_Menu.JPG" alt="Main Menu"/>
+Click on the start button to start the JavaFX Application<br>
+Quit the JavaFX Application
 
+2. Database
+3. Find Person in the databse
+4. Compare People in the database
+5. Add person to the database
+6. delete a person from a database
+7. populate the database with a csv
+8. 
 -------find person menu---------
     -works as intended but i didn't get a chance to make it more flexible like if you want to search for freshman and sophomore
     you can't since i only allow you to search one at a time.
