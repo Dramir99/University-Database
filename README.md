@@ -11,7 +11,7 @@ Launch TestDatabaseGUI.java
 ```
 
 
-# Building and Running the JavaFX Application
+# Running the JavaFX Application
 1. Main Menu
 <img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Main_Menu.JPG" alt="Main Menu"/>
 Click on the start button to start the JavaFX Application <br>
@@ -47,19 +47,37 @@ Database Menu to click if you want to:
 <img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Find_Person_Student_Example.JPG" alt="Find Student example" />
 
 4. Compare People in the database
-# you can compare if a person is
+---
+- Compares if the two People are the exact same People
+- I only allow you to checkbox at most 2 people 
+- Program will set the visibility to all other checkbox to be false to only force you to compare them
+---
+
+# You can Compare two people from the Database
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Compare_Person_Menu.jpg" alt="Compare people example" />
+
+# Example of comparing two people
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Compare_Person_result.jpg" alt="Compare people result" />
+
 5. Add person to the database
+---
+- you will first choose which type of person you would like to add
+- add the texts into the text fields and if you don't put a number into the zip code or phoneNumber or street/apartment number then it will add a label to tell you that the data type is wrong.
+- if you leave the text fields blank a label will appear telling you to fil in something and if the phone number format is wrong then the label wil switch to tell you that the format is wrong.
+- after adding someone you can use the find button to check that your person is added.
+---
+
+# you can choose which type of person to add to the Database
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/add_person_menu.jpg" alt="Add a person menu" />
+
+# Example of adding a student
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/add_student_example.jpg" alt="Add a person example" />
+
 6. delete a person from a database
 7. populate the database with a csv
-8. 
 
-------Comparing menu--------
 
-       -works as intended and the only thing i wanted to add to this was maybe change the check boxes to be a little bit different using CSS but i didn't have any time
 
-       -i only allow you to checkbox at most 2 people and then the program will set the visibility to all other checkbox to be false to only force you to compare them
-
---------Add Person Menu---------
 
        -works as intended but for this i didnt add a new Phone type when you click the button to add a new Phone since i ran out of time but everything else work
 
