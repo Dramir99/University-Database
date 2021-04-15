@@ -74,34 +74,18 @@ Database Menu to click if you want to:
 <img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/add_student_example.jpg" alt="Add a person example" />
 
 6. delete a person from a database
+---
+- you can only delete one person at a time and a label will pop out and tell you who you deleted
+- if you choose to delete more, the option is their but its not fully functional.
+---
+
 7. populate the database with a csv
 
+---
+- You will be automatically started in the /src location and then you go into the file to download a "People.csv" file
+- I only allow you to see files that are .csv since that the only file that should be read.
+- the output file works too and it will output the file in .txt format and it will show a label that your stuff is printed or read depending on the option that is selected.
+---
 
 
 
-       -works as intended but for this i didnt add a new Phone type when you click the button to add a new Phone since i ran out of time but everything else work
-
-       - you will first choose which type of person you would like to add then add the texts into the text fields and if you don't put a number into the zip code or phoneNumber or street/apartment number
-       then it will add a label to tell you that the data type is wrong.
-
-       - if you leave the text fields blank a label will appear telling you to fil in something and if the phone number format is wrong then the label wil switch to tel you that the format is wrong.
-
-       - you can then use the find button to check that your person is added.
-
---------Delete Person Menu--------
-
-       -works as intended but for some reason i was getting an error with index out of bounds and i assume its due to the fact that if you try to keep deleting people even though im not constantly updating it as you delete
-       it then you aren't actually deleting a person that is in index 30 for example (if you delete someone from 28 and then try to delete someone from 29 then that person isn't 29 anymore rather they are the new 28 and
-       i didn't have a chance to update it so i just used a try and catch and just let you keep deleting people )
-
-       -so it will work if you just delete one person at a time and a label will pop out and tell you who you deleted. and if you choose to delete more the option is their but its not fully functional.
-
--------CSV File Menu--------
-
-    -works as intended the one thing i didnt get to complete though was the requirement that it wanted you to output the database in the "entry format" i left it as a the same format as the
-    previous homework
-
-    -if you want to grab a file then you will be automatically started in the src location and then you go into the file to download a "People.csv" file and i only allow you to see files that are csv since that the only
-    file that can read.
-
-    - the output file works too and it will output the file in .txt format and it will show a label that your stuff is printed or read depending on the option that is selected.
