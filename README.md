@@ -1,13 +1,16 @@
 # University-Database
-Created a Database
+
 Author: Daniel Ramirez
-Purpose: Create a GUI Database
 
--------------------------Notes-----------------
-// their is already a database inside so you don't need to import the database before.
+# 🛠 Installation & Set Up
+1. Install the files
 
-// the best way i found to make the project work is to make a dummy project work space and the
-just copy and paste the stuff so it works in eclipse after it was in the zip file other then that the project itself should work
+---
+    Launch ```TestDatabaseGUI.java```
+---
+
+# Building and Running the JavaFX Application
+1. Main Menu
 
 -------find person menu---------
     -works as intended but i didn't get a chance to make it more flexible like if you want to search for freshman and sophomore
