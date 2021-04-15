@@ -5,32 +5,53 @@ Author: Daniel Ramirez
 # 🛠 Installation & Set Up
 1. Install the files
 
----
-    Launch TestDatabaseGUI.java
----
+
+```
+Launch TestDatabaseGUI.java
+```
+
 
 # Building and Running the JavaFX Application
 1. Main Menu
 <img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Main_Menu.JPG" alt="Main Menu"/>
-Click on the start button to start the JavaFX Application<br>
+Click on the start button to start the JavaFX Application <br>
 Quit the JavaFX Application
 
 2. Database
-3. Find Person in the databse
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Database_Menu.JPG" alt="Database Menu" />
+
+Database Menu to click if you want to:
+
+- Find person
+- Compare People
+- Add a person
+- Delete a Person 
+- Populate the Database With a CSV file
+
+3. Find Person in the database
+---
+- Cant search for people who are in different Years
+- if you want to find all the people in the database then you leave first name and last name blank and put the data type to be "Person" and it will return everyone in the database
+- this works for each data type so if you want all Employees you do the same and for Students, Faculty and Staff each leaving their respective text fields blank as well.
+- If you want to search through freshman or sophomore then you leave everything else blank other then the class rank
+- same thing for th other fields depending on what you want to find or if you wan to use all available each works and if you don't find anything it will return with "no one found"
+---
+
+# You can see all the different people inside the database
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Find_Person_Type.JPG" alt="Different type of people" />
+
+# You can search a person dynamcially and will return multiple matches
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Student_Example.jpg" alt="Different type of Students" />
+
+# Looking at different Students years
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Find_Person_Student_Example.JPG" alt="Find Student example" />
+
 4. Compare People in the database
+# you can compare if a person is
 5. Add person to the database
 6. delete a person from a database
 7. populate the database with a csv
 8. 
--------find person menu---------
-    -works as intended but i didn't get a chance to make it more flexible like if you want to search for freshman and sophomore
-    you can't since i only allow you to search one at a time.
-
-    -if you want to find all the people in the database then you leave first name and last name blank and put the data type to be "Person" and it will return everyone in the database
-    this works for each data type so if you wan all Employees you do the same and for Students and Faculty and Staff each leaving their respective text fields blank as well.
-
-    -then if you want to search through freshman or sophomore then  you leave everything else blank other then the class rank
-    -same thing for th other fields depending on what you want to find or if you wan to use all available each works and if you don't find anything it will return with "no one found".
 
 ------Comparing menu--------
 
