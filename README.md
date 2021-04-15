@@ -4,8 +4,9 @@ Author: Daniel Ramirez
 
 # 🛠 Installation & Set Up
 1. Install the files
-
-
+```
+Open up the Folder Database
+```
 ```
 Launch TestDatabaseGUI.java
 ```
@@ -79,6 +80,9 @@ Database Menu to click if you want to:
 - if you choose to delete more, the option is their but its not fully functional.
 ---
 
+# you can select someone from the database to delete
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Delete_Menu.jpg" alt="Delete Menu" />
+
 7. populate the database with a csv
 
 ---
@@ -87,5 +91,6 @@ Database Menu to click if you want to:
 - the output file works too and it will output the file in .txt format and it will show a label that your stuff is printed or read depending on the option that is selected.
 ---
 
-
+# you can dowload a database or write a text file with the given database
+<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Populate_database_menu.jpg" alt="Populate Data Menu" />
 
