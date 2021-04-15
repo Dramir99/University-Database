@@ -6,7 +6,7 @@ Author: Daniel Ramirez
 1. Install the files
 
 ---
-    Launch ```TestDatabaseGUI.java```
+    Launch TestDatabaseGUI.java
 ---
 
 # Building and Running the JavaFX Application
